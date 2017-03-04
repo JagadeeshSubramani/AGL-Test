@@ -52,6 +52,10 @@
       <Project>{522d430d-7cf0-4059-ad82-fd690fdb4cf8}</Project>
       <Name>PeoplePets.JSONModels</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PeoplePets.ViewModels\PeoplePets.ViewModels.csproj">
+      <Project>{248d169a-5b7e-4628-b610-56b4a448a931}</Project>
+      <Name>PeoplePets.ViewModels</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ServiceWrapper.People\ServiceWrapper.People.csproj">
       <Project>{7b9469be-2e49-4fa6-a450-b125b2f5e2ee}</Project>
       <Name>ServiceWrapper.People</Name>

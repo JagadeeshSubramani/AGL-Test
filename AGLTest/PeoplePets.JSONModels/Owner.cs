@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PeoplePets.Models
+namespace PeoplePets.JSONModels
 {
     public class Owner
     {

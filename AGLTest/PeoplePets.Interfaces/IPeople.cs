@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using PeoplePets.ViewModels;
+using System.Collections.Generic;
 
 namespace PeoplePets.Interfaces
 {
     public interface IPeople
     {
-        IEnumerable<string> GetOwnerCatNames();
+        IEnumerable<Owner> GetOwnerCatNames();
 
-        IEnumerable<string> GetOwnerCatNames(string gender);
+        Owner GetOwnerCatNames(string gender);
     }
 }

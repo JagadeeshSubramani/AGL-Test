@@ -197,6 +197,10 @@
       <Project>{9aba16e5-ff85-49c5-9627-47d04f05a969}</Project>
       <Name>PeoplePets.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PeoplePets.ViewModels\PeoplePets.ViewModels.csproj">
+      <Project>{248d169a-5b7e-4628-b610-56b4a448a931}</Project>
+      <Name>PeoplePets.ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

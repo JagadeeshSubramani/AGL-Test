@@ -60,9 +60,9 @@
       <Project>{9aba16e5-ff85-49c5-9627-47d04f05a969}</Project>
       <Name>PeoplePets.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PeoplePets.JSONModels\PeoplePets.JSONModels.csproj">
-      <Project>{522d430d-7cf0-4059-ad82-fd690fdb4cf8}</Project>
-      <Name>PeoplePets.JSONModels</Name>
+    <ProjectReference Include="..\PeoplePets.ViewModels\PeoplePets.ViewModels.csproj">
+      <Project>{248d169a-5b7e-4628-b610-56b4a448a931}</Project>
+      <Name>PeoplePets.ViewModels</Name>
     </ProjectReference>
     <ProjectReference Include="..\PeoplePets\PeoplePets.csproj">
       <Project>{9FD50B97-0419-4D7E-9490-DD10BDFCAED2}</Project>
@@ -71,6 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

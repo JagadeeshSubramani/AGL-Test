@@ -1,4 +1,5 @@
 ﻿using PeoplePets.Interfaces;
+using PeoplePets.ViewModels;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
@@ -18,19 +19,14 @@ namespace PeoplePets.Controllers
         {
             if (ModelState.IsValid)
             {
-                IEnumerable<string> catNames;
                 if (gender == null)
                 {
-                    ViewData["Gender"] = "All";
-                    catNames = _people.GetOwnerCatNames();
+                    return View((List<Owner>)_people.GetOwnerCatNames());
                 }
                 else
                 {
-                    ViewData["Gender"] = gender;
-                    catNames = _people.GetOwnerCatNames(gender);
+                    return View(new List<Owner> { _people.GetOwnerCatNames(gender) });
                 }
-                if (((List<string>)catNames).Count > 0)
-                    return View(catNames);
             }
             return new EmptyResult();
         }

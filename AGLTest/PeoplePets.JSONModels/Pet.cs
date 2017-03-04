@@ -1,4 +1,4 @@
-﻿namespace PeoplePets.Models
+﻿namespace PeoplePets.JSONModels
 {
     public class Pet
     {
