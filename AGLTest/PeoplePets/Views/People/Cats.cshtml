@@ -1,0 +1,21 @@
+﻿@model IEnumerable<string>
+
+@{
+    ViewBag.Title = "Cat Names";
+}
+
+@if (@ViewBag.Gender != "All")
+{<h2>@ViewBag.Gender Owner</h2>}
+<h2>Cat Names</h2>
+
+<table class="table">
+   
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeoplePets", "PeoplePets\PeoplePets.csproj", "{9FD50B97-0419-4D7E-9490-DD10BDFCAED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeoplePets.Tests", "PeoplePets.Tests\PeoplePets.Tests.csproj", "{3AC86918-39CD-4021-8B7F-B1D184D6C114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceWrapper.People", "ServiceWrapper.People\ServiceWrapper.People.csproj", "{7B9469BE-2E49-4FA6-A450-B125B2F5E2EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeoplePets.JSONModels", "PeoplePets.JSONModels\PeoplePets.JSONModels.csproj", "{522D430D-7CF0-4059-AD82-FD690FDB4CF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeoplePets.Interfaces", "PeoplePets.Interfaces\PeoplePets.Interfaces.csproj", "{9ABA16E5-FF85-49C5-9627-47D04F05A969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeoplePets.BusinessLayer", "PeoplePets.BusinessLayer\PeoplePets.BusinessLayer.csproj", "{FEE0330C-BB13-466D-B952-5D67F48B41A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD50B97-0419-4D7E-9490-DD10BDFCAED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD50B97-0419-4D7E-9490-DD10BDFCAED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD50B97-0419-4D7E-9490-DD10BDFCAED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD50B97-0419-4D7E-9490-DD10BDFCAED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC86918-39CD-4021-8B7F-B1D184D6C114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC86918-39CD-4021-8B7F-B1D184D6C114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC86918-39CD-4021-8B7F-B1D184D6C114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC86918-39CD-4021-8B7F-B1D184D6C114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9469BE-2E49-4FA6-A450-B125B2F5E2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9469BE-2E49-4FA6-A450-B125B2F5E2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9469BE-2E49-4FA6-A450-B125B2F5E2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9469BE-2E49-4FA6-A450-B125B2F5E2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522D430D-7CF0-4059-AD82-FD690FDB4CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522D430D-7CF0-4059-AD82-FD690FDB4CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522D430D-7CF0-4059-AD82-FD690FDB4CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522D430D-7CF0-4059-AD82-FD690FDB4CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABA16E5-FF85-49C5-9627-47D04F05A969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABA16E5-FF85-49C5-9627-47D04F05A969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABA16E5-FF85-49C5-9627-47D04F05A969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABA16E5-FF85-49C5-9627-47D04F05A969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE0330C-BB13-466D-B952-5D67F48B41A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE0330C-BB13-466D-B952-5D67F48B41A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE0330C-BB13-466D-B952-5D67F48B41A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE0330C-BB13-466D-B952-5D67F48B41A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
